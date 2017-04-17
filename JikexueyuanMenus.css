@@ -1,0 +1,840 @@
+ @charset "utf-8";
+ blockquote,
+ body,
+ button,
+ fieldset,
+ figure,
+ form,
+ h1,
+ h2 h3,
+ h4,
+ h5,
+ h6,
+ input,
+ legend,
+ li,
+ p,
+ pre,
+ select,
+ textarea,
+ ul {
+     -webkit-font-smoothing: antialiased;
+     font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif
+ }
+ 
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ #header {
+     width: 1366px;
+     height: 50px;
+     border-bottom: 1px solid #ececec;
+     background: #fff;
+ }
+ 
+ body {
+     width: 1366px;
+     background: #f5f5f5;
+ }
+ 
+ #header li,
+ #header a {
+     list-style: none;
+     text-decoration: none;
+ }
+ 
+ .logo {
+     margin-left: 80px;
+ }
+ 
+ #logo {
+     width: 109px;
+     display: inline-block;
+     margin-left: 60px;
+     height: 40px;
+     float: left;
+     margin-top: 5px;
+ }
+ 
+ #icons {
+     margin-right: 80px;
+ }
+ 
+ #list li {
+     float: left;
+     display: inline-block;
+     margin-left: 50px;
+     line-height: 60px;
+ }
+ 
+ #icons li {
+     float: right;
+     display: inline-block;
+     margin-right: 30px;
+     line-height: 60px;
+ }
+ 
+ #icons li a {
+     font-size: 14px;
+     color: #333;
+ }
+ 
+ #list li a {
+     font-size: 14px;
+     color: #333;
+ }
+ 
+ #seach_icon input {
+     float: left;
+     margin-left: 50px;
+     width: 420px;
+     height: 30px;
+     margin-top: 10px;
+     /*display: none;*/
+ }
+ 
+
+ #delete {
+     display: inline-block;
+     margin-top: 18px;
+     margin-left: -20px;
+     cursor: pointer;
+     position: absolute;
+ }
+ 
+ #Carrer li {
+     clear: both;
+     margin: 0;
+     line-height: 30px;
+ }
+ 
+ #Carrer li a {
+     font-size: 10px;
+     color: #696969;
+     padding-left: 20px;
+ }
+ 
+ #Carrer li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ 
+ #Carrer div {
+     background: #ffffff;
+     width: 200px;
+     height: 280px;
+ }
+ 
+ .Carrer {
+     margin-left: -7px;
+     margin-top: -5px;
+     position: absolute;
+     display: none;
+ }
+ /* 职业学院  */
+ 
+ #lesson li {
+     clear: both;
+     margin: 0;
+     line-height: 30px;
+ }
+ 
+ #lesson li a {
+     font-size: 10px;
+     color: #696969;
+     padding-left: 20px;
+ }
+ 
+ #lesson li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ 
+ #lesson div {
+     background: #ffffff;
+     width: 160px;
+     height: 190px;
+ }
+ 
+ .lesson {
+     margin-left: -7px;
+     margin-top: -5px;
+     position: absolute;
+     display: none;
+ }
+ /* 会员课程*/
+ 
+ #Community li {
+     clear: both;
+     margin: 0;
+     line-height: 30px;
+ }
+ 
+ #Community li a {
+     font-size: 10px;
+     color: #696969;
+     padding-left: 20px;
+ }
+ 
+ #Community li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ 
+ #Community div {
+     background: #ffffff;
+     width: 100px;
+     height: 140px;
+ }
+ 
+ .Community {
+     margin-left: -7px;
+     margin-top: -5px;
+     position: absolute;
+     display: none;
+ }
+ /* 极客社区*/
+ 
+ #user li {
+     clear: both;
+     line-height: 23px;
+ }
+ 
+ #user li a {
+     font-size: 10px;
+     color: #696969;
+     text-align: left;
+ }
+ 
+ #user li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ 
+ #user div {
+     background: #ffffff;
+     width: 100px;
+     height: 130px;
+ }
+ 
+ .user {
+     margin-left: -60px;
+     margin-top: -10px;
+     position: absolute;
+     display: none;
+ }
+ /* 用户登录*/
+ 
+ #code li {
+     text-align: center;
+     clear: both;
+     margin: 0;
+     line-height: 23px;
+ }
+ 
+ #code div {
+     background: #ffffff;
+     width: 100px;
+     height: 100px;
+ }
+ 
+ .code {
+     margin-left: -40px;
+     margin-top: -5px;
+     position: absolute;
+     display: none;
+ }
+ 
+ .code_icon {
+     width: 100px;
+     height: 150;
+ }
+ /* 二维码*/
+ 
+ #body {
+     width: 1349px;
+     height: 800px;
+ }
+ 
+ .left {
+     width: 210px;
+     height: 597px;
+     margin-left: 140px;
+     margin-top: 20px;
+     float: left;
+     position: absolute;
+ }
+ 
+ #leftUp {
+     width: 210px;
+     border: 1px rgb(53, 181, 88) solid;
+     height: 417px;
+     background: #ffffff;
+     box-sizing: border-box;
+ }
+ 
+ #leftUp li {
+     cursor: pointer;
+     width: 208px;
+     list-style: none;
+     background-size: 6px 10px;
+     padding-left: 32px;
+     margin-top: 5px;
+     box-sizing: border-box;
+ }
+ 
+ #leftUp li a {
+     font-size: 14px;
+     color: #696969;
+     text-decoration: none;
+     line-height: 32px;
+     padding-left: 10px;
+ }
+ 
+ #leftUp li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ 
+ #leftDown {
+     width: 210px;
+     height: 150px;
+     background: #ffffff;
+     padding-top: 20px;
+ }
+ 
+ #leftDown li {
+     height: 40px;
+     list-style: none;
+ }
+ 
+ #leftDown li a {
+     color: #333;
+     display: block;
+     width: 100%;
+     font-size: 14px;
+     padding-left: 30px;
+     text-decoration: none;
+ }
+ 
+ #leftDown li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ /*正文部分左侧*/
+ 
+ .right {
+     width: 776px;
+     height: 1502px;
+     float: left;
+     /*  position: relative;*/
+     margin-top: 10px;
+     margin-left: 368px;
+ }
+ 
+ .right_nav {
+     width: 776px;
+     height: 38px;
+     z-index: 500;
+     background: #fff;
+ }
+ /*正文部分右侧*/
+ 
+ #update li {
+     text-align: center;
+     clear: both;
+     margin: 0;
+     line-height: 23px;
+ }
+ 
+ #update li a {
+     font-size: 10px;
+     color: #696969;
+     padding-left: 13px;
+ }
+ 
+ #update li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ 
+ #update div {
+     background: #ffffff;
+     width: 70px;
+     height: 80px;
+ }
+ 
+ .update {
+     margin-left: -15px;
+     margin-top: -10px;
+     position: absolute;
+     display: none;
+ }
+ /*最新*/
+ 
+ #classification li {
+     clear: both;
+     margin: 0;
+ }
+ 
+ #classification li a {
+     font-size: 10px;
+     color: #696969;
+     padding-left: 15px;
+ }
+ 
+ #classification li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ 
+ #classification div {
+     background: #ffffff;
+     width: 80px;
+     height: 100px;
+ }
+ 
+ .classification {
+     margin-left: -10px;
+     margin-top: -10px;
+     position: absolute;
+     display: none;
+ }
+ /*内容*/
+ 
+ #content li {
+     clear: both;
+     margin: 0;
+ }
+ 
+ #content li a {
+     font-size: 10px;
+     color: #696969;
+     padding-left: 15px;
+ }
+ 
+ #content li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ 
+ #content div {
+     background: #ffffff;
+     width: 80px;
+     height: 100px;
+ }
+ 
+ .content {
+     margin-left: -10px;
+     margin-top: -10px;
+     position: absolute;
+     display: none;
+ }
+ /*等级*/
+ 
+ #rank li {
+     clear: both;
+     margin: 0;
+ }
+ 
+ #rank li a {
+     font-size: 10px;
+     color: #696969;
+     padding-left: 20px;
+ }
+ 
+ #rank li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ 
+ #rank div {
+     background: #ffffff;
+     width: 60px;
+     height: 70px;
+ }
+ 
+ .rank {
+     margin-left: -7px;
+     margin-top: -5px;
+     position: absolute;
+     display: none;
+ }
+ 
+ .right_nav li {
+     float: left;
+     display: inline-block;
+     margin-left: 30px;
+ }
+ 
+ .right_nav li a {
+     line-height: 38px;
+     font-size: 13px;
+     color: gray;
+     text-decoration: none;
+ }
+ .column{display: inline-block;float: right;margin-right: 20px;width: 20px;height: 38px;margin-top: 8px;cursor: pointer;}
+ .row{display: inline-block;float: right;margin-right: 10px;width: 20px;height: 38px;margin-top: 8px;cursor: pointer;}
+ /*主体部分*/
+ 
+ .right_main {
+     width: 789px;
+     height: 1200px;
+     z-index: 500;
+     /* background: #fff;*/
+     /*  border-top:1px solid #333;*/
+     margin-top: 20px;
+ }
+ 
+ .right_main ul li {
+     width: 250px;
+     height: 225px;
+     margin-right: 13px;
+     margin-bottom: 13px;
+     float: left;
+     list-style: none;
+     cursor: pointer;
+ }
+ 
+ .right_main ul li span {
+     display: block;
+     width: 250px;
+     height: 28px;
+     background: #fff;
+     text-align: left;
+     line-height: 37px;
+ }
+ 
+ #A101,
+ #A103,
+ #A105,
+ #A107,
+ #A109,
+ #A111,
+ #A113,
+ #A115,
+ #A117,
+ #A119 {
+     font-size: 14px;
+ }
+ 
+ #A102,
+ #A104,
+ #A106,
+ #A108,
+ #A110,
+ #A112,
+ #A114,
+ #A116 {
+     font-size: 10px;
+     color: #ccc;
+ }
+ 
+ .A01,
+ .A02,
+ .A03,
+ .A04,
+ .A05,
+ .A06,
+ .A07,
+ .A08,
+ .A09,
+ .A10,
+ .A11,
+ .A12,
+ .A13,
+ .A14,
+ .A15,
+ .A16,
+ .A17,
+ .A18,
+ .A19,
+ .A20 {
+     font-size: 10px;
+     color: #ccc;
+    
+ }
+ /**/
+  #right_main_row {
+     width: 782px;
+     height: 1500px;
+     /* background: #fff;*/
+     /* border-top:1px solid #333;*/
+     margin-top: 20px;}
+
+ #right_main_row div{
+width: 778px;
+height: 131px;
+border: 1px solid #ccc;
+margin-top: 20px;
+background: #fff;
+
+}
+#right_main_row span{font-size: 14px;margin-top: 80px;display: inline-block;width: 500px;margin-left: 100px;
+height: 100px; position: absolute;}
+ /**/
+ #list2 li {
+     clear: both;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ #list2 li a {
+     font-size: 10px;
+     color: #696969;
+     line-height: 30px;
+ }
+ 
+ #list2 li a:hover {
+     color: rgb(53, 181, 88);
+ }
+ 
+ #list2 div {
+     background: #ffffff;
+     width: 260px;
+     height: 270px;
+ }
+ 
+ .list2 {
+     margin-left: 177px;
+     margin-top: -76px;
+     border: 1px solid #ccc;
+     float: left;
+     position: absolute;
+     display: none;
+ }
+/*#foot{min-width: 1000px;
+    border-top: 1px solid #e4e4e4;
+    background: #fff;
+}
+.mar-t50{margin-top: 50px!important;}*/
+/*footer样式*/
+a:hover {
+    text-decoration: none
+}
+
+#footer div,
+#footer p,
+#footer dd,
+#footer dl,
+#footer dt {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif
+}
+
+#footer {
+    min-width: 1000px;
+    border-top: 1px solid #e4e4e4;
+    background: #fff;
+
+}
+
+.mar-t50 {
+    margin-top: 50px!important;
+    margin-left: -180px;
+}
+
+#footer .jkinfor-block {
+    background: #fff;
+}
+
+#footer .jkinfor-block .jkinfor {
+    position: relative;
+    width: 1000px;
+    height: 215px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f5f5f5;
+    padding-left: 224px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+#footer .jkinfor-block .jkinfor .jk-logo {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    display: inline-block;
+    width: 160px;
+}
+
+#footer .jkinfor-block .jkinfor .jk-logo img {
+    width: 109px;
+    height: 40px;
+    display: block;
+}
+
+#footer .jkinfor-block .jkinfor .jk-logo p {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+}
+
+#footer .jkinfor dl {
+    width: 135px;
+    color: #808080;
+    float: left;
+}
+
+#footer .jkinfor dl dt {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#footer .jkinfor dl dd {
+    font-size: 12px;
+    line-height: 30px;
+}
+
+#footer .jkinfor dl dt a {
+    color: #808080;
+}
+
+#footer .jkinfor dl dd a {
+    color: #999999;
+}
+
+#footer .jkinfor a:hover {
+    color: #35b558;
+}
+
+#footer .jk-down {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    display: inline-block;
+    width: 175px;
+    text-align: left;
+}
+
+#footer .jk-down .hot-tel {
+    color: #808080;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#footer .jk-down .downCon {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 10px;
+    line-height: 30px;
+    color: #808080;
+    font-size: 13px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+#footer .jk-down .down-ios {
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/icon-down-ios.png)no-repeat 0 0;
+    background-size: 30px 30px;
+}
+
+#footer .jk-down .down-and {
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/icon-down-and.png)no-repeat 0 0;
+    background-size: 30px 30px;
+}
+
+#footer .jk-down .downCon img {
+    display: inline-block;
+    width: 115px;
+    height: 153px;
+    position: absolute;
+    top: -157px;
+    left: 12px;
+    z-index: 2;
+    display: none;
+}
+
+#footer .jk-down .downCon:hover img {
+    display: block;
+}
+
+#footer .copyright {
+    font-size: 12px;
+    color: #999;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#footer .copyright strong {
+    font-weight: 400;
+}
+
+#footer .copyright a {
+    color: #999;
+}
+
+#footer .copyright a.down-wechat {
+    float: right;
+    height: 15px;
+    width: 20px;
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/icon-down-wechat.png)no-repeat 0 0;
+    background-size: 18px 15px;
+}
+
+#footer .copyright a.down-sina {
+    float: right;
+    height: 15px;
+    width: 20px;
+    margin-right: 10px;
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/icon-down-sina.png)no-repeat 0 0;
+    background-size: 20px 15px;
+}
+
+/*右边角功能键*/
+.gotop {
+    position: fixed;
+    left: 50%;
+    margin-left: 510px;
+    bottom: 50px;
+    width: 34px;
+    text-align: center;
+    z-index: 2000;
+}
+
+.gotop span.top {
+    display: block;
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/gotop.jpg) 0 0 no-repeat;
+    background-size: 34px 103px;
+    width: 34px;
+    height: 34px;
+}
+
+.gotop span.top:hover {
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/gotop2.jpg) 0 0 no-repeat;
+    background-position: 0 0;
+    background-size: 34px 103px;
+    -webkit-background-size: 34px 103px;
+    -moz-background-size: 34px 103px;
+}
+
+.gotop span.jk-app {
+    position: relative;
+    display: block;
+    background: #f7f7f7 url(http://e.jikexueyuan.com/headerandfooter/images/phone-1.png) center center no-repeat;
+    background-size: 12px 24px;
+    width: 34px;
+    height: 35px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.gotop span.jk-app:hover {
+    background: #f7f7f7 url(http://e.jikexueyuan.com/headerandfooter/images/phone-2.png) center center no-repeat;
+    background-size: 12px 24px;
+}
+
+.gotop span.jk-app:hover .appewm{
+    display: block;
+}
+
+.appewm {
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/appewm.png) center center no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 159px;
+    position: absolute;
+    z-index: 2100;
+    left: -126px;
+    top: -70px;
+    display: none;
+}
